@@ -1,0 +1,8 @@
+{
+  "name": "date-calculator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "2b968f95"
+}
