@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "458673834865",
+    "project_id": "date-calculator-26221",
+    "storage_bucket": "date-calculator-26221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458673834865:android:b455cb315441ce02eb04d0",
+        "android_client_info": {
+          "package_name": "com.imedicalapps.datecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458673834865-qiglg7kr9s67p26q7nfp488u2rk7df5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmH7NUKKKp1B5-fhpC4j9Qysaegyc9HWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458673834865-qiglg7kr9s67p26q7nfp488u2rk7df5j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458673834865-unhulqhc6f48rusdjb0h97p8vv5so27d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.imedicalapps.datecalculator"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

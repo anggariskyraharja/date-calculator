@@ -16,7 +16,7 @@ FirebaseAnalytics.enable();
 })
 export class TabsPage implements OnInit, OnDestroy {
   options: AdOptions = {
-    adId: "ca-app-pub-9580735978410872/4749464888",
+    adId: "ca-app-pub-9580735978410872/1001791565",
     adSize: AdSize.BANNER,
     position: AdPosition.BOTTOM_CENTER,
   };
