@@ -24,3 +24,57 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+    --ion-color-primary: #062E6E;
+    --ion-background-color: #FFFFFF;
+}
+
+ion-toolbar {
+    --background: #062E6E;
+    --border-style: solid;
+    --border-color: #062E6E;
+    --color: #ffffff;
+}
+ion-label {
+    font-size: 1.0em !important;
+}
+ion-radio {
+    --color-checked: #062E6E;
+}
+.color1 {
+    --background: #FA9F1F;
+    --border-style: solid;
+    --border-color: #B4F8C8;
+    --color: #000000;
+}
+.color11 {
+    --background: #FA9F1F;
+    --border-style: solid;
+    --border-color: #B4F8C8;
+    --color: #000000;
+    text-align: center;
+}
+.color2 {
+    --background:#1894B4;
+    --border-style: solid;
+    --border-color: #1894B4;
+    --color: #000000;
+}
+.color3 {
+    --background: #EEEDE7;
+    --border-style: solid;
+    --border-color: #EEEDE7;
+    --color: #000000;
+}
+.color4 {
+    --background: #062E6E;
+    --border-style: solid;
+    --border-color: #062E6E;
+    --color: #ffffff;
+    text-align: center;
+}
+
+.color5 {
+    --background: #ffffff;
+}

@@ -1,17 +1,35 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
+<ion-header [translucent]="true" >
+  <ion-toolbar >
+    <ion-title >
+      Time to Time
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-item class="color11">
+    <ion-text>
+      <p>Calculate the difference between two times</p>
+    </ion-text>
+  </ion-item>
+  <ion-item-divider class="color5"></ion-item-divider>
+  <ion-list>
+    <ion-item class="color2">
+      <ion-label>Start time:</ion-label >
+      <ion-datetime displayFormat="HH:mm" (ionChange)="check()" [(ngModel)]="from" placeholder="Pick time"></ion-datetime>
+    </ion-item>
+    <ion-item class="color2">
+      <ion-label>End time:</ion-label>
+      <ion-datetime displayFormat="HH:mm" (ionChange)="check()" [(ngModel)]="to" placeholder="Pick time"></ion-datetime>
+    </ion-item>
+    <ion-item-divider class="color5"></ion-item-divider>
+    <ion-item class="color1">
+      <ion-label>Hours:</ion-label>
+      <ion-text>{{hours}}</ion-text>
+    </ion-item>
+    <ion-item class="color1">
+      <ion-label>Minutes:</ion-label>
+      <ion-text>{{minutes}}</ion-text>
+    </ion-item>
+</ion-list>
 </ion-content>

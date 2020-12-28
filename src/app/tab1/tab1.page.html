@@ -1,17 +1,55 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+<ion-header [translucent]="true" >
+  <ion-toolbar >
+    <ion-title >
+      Date to Date
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item class="color11">
+    <ion-text>
+      <p>Calculate the difference between two dates</p>
+    </ion-text>
+  </ion-item>
+  <ion-item-divider class="color5"></ion-item-divider>
+  <ion-list>
+    <ion-item class="color2">
+      <ion-label>Start date:</ion-label>
+      <ion-datetime (ionChange)="check()" [(ngModel)]="from" placeholder="Pick date"></ion-datetime>
+    </ion-item>
+    <ion-item class="color2">
+      <ion-label>End date:</ion-label>
+      <ion-datetime (ionChange)="check()" [(ngModel)]="to" placeholder="Pick date"></ion-datetime>
+    </ion-item>
+    <ion-item class="color3">
+      <ion-label>Include end date</ion-label>
+      <ion-toggle (ionChange)="check()" slot="end" [(ngModel)]="last"></ion-toggle>
+    </ion-item>
+    <ion-item-divider class="color5"></ion-item-divider>
+    <ion-item class="color1">
+      <ion-label>Days:</ion-label>
+      <ion-text>{{days}}</ion-text>
+    </ion-item>
+    <ion-item class="color1">
+      <ion-label>Weeks:</ion-label>
+      <ion-text>{{weeks}}</ion-text>
+    </ion-item>
+    <ion-item class="color1">
+      <ion-label>Months:</ion-label>
+      <ion-text>{{months}}</ion-text>
+    </ion-item>
+    <ion-item class="color1">
+      <ion-label>Years:</ion-label>
+      <ion-text>{{years2}}</ion-text>
+    </ion-item>
+    <ion-item class="color1">
+      <ion-label>Hours:</ion-label>
+      <ion-text>{{hours}}</ion-text>
+    </ion-item>
+    <ion-item class="color1">
+      <ion-label>Minutes:</ion-label>
+      <ion-text>{{minutes}}</ion-text>
+    </ion-item>
+</ion-list>
 </ion-content>
